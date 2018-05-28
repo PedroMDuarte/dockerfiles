@@ -1,0 +1,122 @@
+# Databricks job scripts
+ops/databricks/jobs/*
+ops/databricks/ansible/templates/pg_service.conf
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.*~
+*.prof
+
+# Cython extensions
+*.so
+interval_utils.c
+
+# Ansible
+*.retry
+
+# Samba Data Processing logs
+samba_driver.log*
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+docs/samba_data_processing*.rst
+docs/samba_research*.rst
+docs/modules.rst
+
+# ops/services dev and deploy leftovers
+docker-compose.debug.yml
+docker-compose.local.yml
+docker-compose.ecs.yml
+ops/services/errors
+
+# PyBuilder
+target/
+
+# IDE project prefs etc.
+*.sublime-project
+*.sublime-workspace
+.idea/
+sftp-config.json
+.exclude/
+
+# virtual envionment
+venv-samba_data_processing/
+
+# Parquet output files
+*.parquet
+
+# Apache Derby database created when using Apache Hive
+metastore_db/
+
+# Emacs temporary
+.#*
+\#*#
+
+# ipython
+*.ipynb*
+
+# log files
+*log.txt
+
+#Vagrant File
+.vagrant/
+
+# Data Artisans
+data-artisans
+
+# Mac OS files
+.DS_Store
+
+# local settings
+samba_data_processing/settings_local.py
+
+# pytest_cache
+.pytest_cache/
